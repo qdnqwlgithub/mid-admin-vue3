@@ -6,27 +6,25 @@ defineProps({
   },
   value: {
     type: String,
-    required: true
+    required: true,
   },
   color: {
-    type: String
+    type: String,
   },
   width: {
     type: String,
-    default: '100px'
+    default: '100px',
   },
   height: {
     type: String,
-    default: '100px'
-  }
-
+    default: '100px',
+  },
 })
-
 </script>
 
 <template>
-<svg :style="{width,height}">
-    <use :xlink:href="prefix+value"></use>
+  <svg :style="{ width, height }">
+    <use :xlink:href="prefix + value"></use>
   </svg>
 </template>
 
