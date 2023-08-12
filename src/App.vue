@@ -1,5 +1,11 @@
 <script setup lang="ts">
-console.log(import.meta.env)
+import {login} from '@/api/user'
+import { onMounted } from 'vue';
+onMounted(()=>{
+  login().then(r=>{
+    console.log(r);
+  })
+})
 </script>
 
 <template>
@@ -8,7 +14,7 @@ console.log(import.meta.env)
 </template>
 
 <style scoped lang="scss">
-  div{
-    background-color: $loveColor;
-  }
+div {
+  background-color: $loveColor;
+}
 </style>
