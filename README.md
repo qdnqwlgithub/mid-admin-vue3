@@ -23,5 +23,3 @@ npx eslint --init
 # 6. yes
 # 7. pnpm
 ```
-
-
