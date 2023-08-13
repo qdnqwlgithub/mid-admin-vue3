@@ -13,7 +13,4 @@ onMounted(() => {
 </template>
 
 <style scoped lang="scss">
-div {
-  background-color: $loveColor;
-}
 </style>

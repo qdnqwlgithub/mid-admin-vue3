@@ -24,4 +24,8 @@ import '@/styles/index.scss'
 import router from '@/router'
 app.use(router)
 
+// about store
+import pinia from '@/store'
+app.use(pinia)
+
 app.mount('#app')

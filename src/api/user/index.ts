@@ -1,9 +1,5 @@
 import request from '@/utils/request'
-// import type {
-//   loginFormData,
-//   loginResponseData,
-//   userInfoReponseData,
-// } from './type'
+import type {loginForm} from './type'
 export const login = (data: { username: string; password: string }) =>
   request.post('user/login/', data)
 export const getUserInfo = () => request.get('admin/index/info/')

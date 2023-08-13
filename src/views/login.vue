@@ -1,16 +1,12 @@
 <script setup lang="ts">
-import {reactive} from 'vue'
-const loginForm=reactive({
-    username: '',
-    password: ''
+import { reactive } from 'vue'
+const loginForm = reactive({
+  username: '',
+  password: '',
 })
-const handleLogin=()=>{
-
-}
+const handleLogin = () => {}
 </script>
 
-<template>
-</template>
+<template></template>
 
-<style scoped lang="scss">
-</style>
+<style scoped lang="scss"></style>
