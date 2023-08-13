@@ -20,4 +20,8 @@ app.use(globalComponent)
 // about style
 import '@/styles/index.scss'
 
+// about router
+import router from '@/router'
+app.use(router)
+
 app.mount('#app')
