@@ -28,3 +28,17 @@ npx eslint --init
 
 - 小满
 - day2: https://blog.csdn.net/m0_55644132/article/details/130733371
+
+
+## vue3 templete
+
+```
+<script setup lang="ts">
+</script>
+
+<template>
+</template>
+
+<style scoped lang="scss">
+</style>
+```

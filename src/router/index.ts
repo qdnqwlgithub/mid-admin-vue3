@@ -1,11 +1,11 @@
 // 通过 vue-router 插件实现模板路由配置
 import { createRouter, createWebHashHistory } from 'vue-router'
-import { constantRoute } from './routes'
+import { constantRouteList } from './routes'
 // 创建路由器
 let router = createRouter({
   // 路由模式hash
   history: createWebHashHistory(),
-  routes: constantRoute,
+  routes: constantRouteList,
   // 滚动行为
   scrollBehavior() {
     return {
